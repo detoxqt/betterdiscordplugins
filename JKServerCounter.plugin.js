@@ -1,8 +1,15 @@
 /**
  * @name JKServerCounter
- * @author JikaiSH
  * @version 0.1.0
  * @description See how many server(s) you are in !
+ * @author JikaiSH
+ * @authorId 847526008651382814
+ * @authorLink https://jikaish.tk
+ * @website https://jikaish.tk
+ * @source https://github.com/JikaiSH/betterdiscordplugins
+ * @updateUrl https://raw.githubusercontent.com/JikaiSH/betterdiscordplugins/main/JKServerCounter.plugin.js
+
+ 
  */
 
 /* @cc_on
@@ -45,16 +52,16 @@ class JKServerCounter {
         this._log(`version ${this.version} is running.`)
     }
     display() {
-        if (!document.getElementById("ServerCount")) {
+        if (!document.getElementById("JKServerCount")) {
             this.createElement()
         }
-        document.getElementById("ServerCount").innerText = `Server ${this.guildCount()}`
+        document.getElementById("JKServerCount").innerText = `Servers ${this.guildCount()}`
     }
     createElement() {
         this.guildDiv = document.getElementsByClassName("guildSeparator-a4uisj")[0]
         const fontSize = this._getFontDimensions(`Servers ${this.guildCount()}`)
-        this.guildDiv.setAttribute("style", `height:30px; width:43px; border-radius: 9px;`)
-        this.guildDiv.innerHTML = `<p id="ServerCount" style="padding:0px;margin:0px;color:white;font-size:14px;text-align:center;"></p>`
+        this.guildDiv.setAttribute("style", `height:30px; width:52px; border-radius:9px; text-align:center;`)
+        this.guildDiv.innerHTML = `<p id="JKServerCount" style="padding:0px;margin:0px;color:white;font-size:14px;text-align:center;"></p>`
     }
     stop() {
        this.guildDiv.setAttribute("style", "")
