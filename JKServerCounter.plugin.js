@@ -5,7 +5,7 @@
  * @description See how many server you are in !
  */
 
-module.exports = class MyPlugin {
+module.exports = class JKServerCounter {
     start() {
         // do something on plugin start
     }
