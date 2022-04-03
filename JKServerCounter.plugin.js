@@ -1,6 +1,6 @@
 /**
  * @name JKServerCounter
- * @version 0.1.0
+ * @version 1.0.0
  * @description See how many server(s) you are in !
  * @author JikaiSH
  * @authorId 847526008651382814
