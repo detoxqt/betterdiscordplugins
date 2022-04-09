@@ -34,7 +34,7 @@
 class JKServerCounter {
         constructor() {
         this.name = "JKServerCounter"
-        this.version = "0.1.0"
+        this.version = "1.0.0"
         this.STYLES = {
             base: "color:white",
             warn: "color:yellow",
