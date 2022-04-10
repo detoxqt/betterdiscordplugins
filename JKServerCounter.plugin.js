@@ -8,6 +8,7 @@
  * @website https://jikaish.tk
  * @source https://github.com/JikaiSH/betterdiscordplugins
  * @updateUrl https://raw.githubusercontent.com/JikaiSH/betterdiscordplugins/main/JKServerCounter.plugin.js
+ * @invite 52Nc5Qry4t
 
  
  */
