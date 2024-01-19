@@ -1,12 +1,12 @@
 # betterdiscordplugins
-My better discord plugins !
+My betterdiscord plugins !
 
 # 🔢 DXServerCounter
 - A plugin for see how many server you are in !
-- Download: https://raw.githubusercontent.com/JikaiSH/betterdiscordplugins/main/JKServerCounter.plugin.js
+- Download: https://raw.githubusercontent.com/detoxqt/betterdiscordplugins/main/DXServerCounter.plugin.js
 
 # 🎮 DXGameActivityToggle
 - A plugin for enable in statut tabs the game activity !
-- Download: https://raw.githubusercontent.com/JikaiSH/betterdiscordplugins/main/JKGameActivityToggle.plugin.js
+- Download: https://raw.githubusercontent.com/detoxqt/betterdiscordplugins/main/DXGameActivityToggle.plugin.js
 
-❓ Need help ? Join my [Discord](https://discord.gg/52Nc5Qry4t)
+❓ Need help ? Join my [Discord](https://discord.gg/pNc3rX96Vj)
