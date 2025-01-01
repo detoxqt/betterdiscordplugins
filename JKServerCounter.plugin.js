@@ -1,11 +1,11 @@
 /**
  * @name JKServerCounter
- * @version 1.0.0
+ * @version 1.1.0
  * @description See how many server(s) you are in !
  * @author JikaiSH
- * @authorId 847526008651382814
- * @authorLink https://jikaish.tk
- * @website https://jikaish.tk
+ * @authorId 1076499390224679003
+ * @authorLink none
+ * @website none
  * @source https://github.com/JikaiSH/betterdiscordplugins
  * @updateUrl https://raw.githubusercontent.com/JikaiSH/betterdiscordplugins/main/JKServerCounter.plugin.js
  * @invite 52Nc5Qry4t
@@ -59,7 +59,7 @@ class JKServerCounter {
         document.getElementById("JKServerCount").innerText = `Servers ${this.guildCount()}`
     }
     createElement() {
-        this.guildDiv = document.getElementsByClassName("guildSeparator-a4uisj")[0]
+        this.guildDiv = document.getElementsByClassName("guildSeparator_d0c57e")[0]
         const fontSize = this._getFontDimensions(`Servers ${this.guildCount()}`)
         this.guildDiv.setAttribute("style", `height:30px; width:52px; border-radius:9px; text-align:center;`)
         this.guildDiv.innerHTML = `<p id="JKServerCount" style="padding:0px;margin:0px;color:white;font-size:14px;text-align:center;"></p>`
@@ -78,7 +78,7 @@ class JKServerCounter {
      */
         _getFontDimensions(text) {
         // get the font
- const logoDiv = document.getElementsByClassName("listItem-3SmSlK")[0] // discord logo div
+ const logoDiv = document.getElementsByClassName("listItem_c96c45")[0] // discord logo div
         const font = window.getComputedStyle(logoDiv, null).getPropertyValue("font-family") // stolen from https://stackoverflow.com/a/7444724       
         const myCanvas = this.canvas || (this.canvas = document.createElement("canvas"))
         const context = myCanvas.getContext("2d")
